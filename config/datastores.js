@@ -48,9 +48,21 @@ module.exports.datastores = {
     *    (See https://sailsjs.com/config/datastores for help.)                 *
     *                                                                          *
     ***************************************************************************/
-    // adapter: 'sails-mysql',
-    // url: 'mysql://user:password@host:port/database',
+    adapter: 'sails-mysql',
+    user :'test@gangulasailsjsdb',
+    password:'Password1',
+    host:'gangulasailsjsdb.mysql.database.azure.com',
+    database:'test',
+    options :{
+      encrypt : false
+      }
+  },
 
+  cache: {
+    port : 6379,
+    adapter: 'sails-redis',
+    url: 'redis://gangulasails.redis.cache.windows.net',
+    auth_pass : 'nCl2GpOkCbuAEuC3fDH6i27U5iL+b4BTpFkUj6mNSns='
   },
 
 
