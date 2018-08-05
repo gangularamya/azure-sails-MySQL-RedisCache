@@ -90,7 +90,7 @@ module.exports = {
     * https://sailsjs.com/docs/concepts/models-and-orm/model-settings#?migrate *
     *                                                                          *
     ***************************************************************************/
-    migrate: 'alter'
+    migrate: 'safe'
     /***************************************************************************
     *                                                                          *
     * If, in production, this app has access to physical-layer CASCADE         *
