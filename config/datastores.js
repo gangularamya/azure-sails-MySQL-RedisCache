@@ -50,7 +50,7 @@ module.exports.datastores = {
     ***************************************************************************/
     adapter: 'sails-mysql',
     user :'test@gangulasailsjsdb',
-    password:'Password1',
+    password:'xxxxxxxx',
     host:'gangulasailsjsdb.mysql.database.azure.com',
     database:'test',
     options :{
